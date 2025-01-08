@@ -1,3 +1,4 @@
+import Layout from "../Layout/Layout";
 const Home = () => {
     return (
         <div>
@@ -5,5 +6,7 @@ const Home = () => {
         </div>
     );
 };
+
+Home.layout = page => <Layout children={page} />;
 
 export default Home;
