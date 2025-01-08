@@ -28,6 +28,7 @@
          <title>Inertia App</title>
          @viteReactRefresh
          @vite('resources/js/app.jsx')
+         @inertiaHead
     </head>
     <body>
          @inertia
