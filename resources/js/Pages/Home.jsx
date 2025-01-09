@@ -1,8 +1,8 @@
 import Layout from "../Layout/Layout";
-const Home = () => {
+const Home = ({name}) => {
     return (
         <div>
-            <h1 className="title">Hello World</h1>
+            <h1 className="title">Hello {name}</h1>
         </div>
     );
 };
