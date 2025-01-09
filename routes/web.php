@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    sleep(1);
-    return inertia('Home',['name' => 'John Doe']);
-});
+Route::get('/', [App\Http\Controllers\PostController::class, 'index']);
+
+Route::resource('posts', App\Http\Controllers\PostController::class)->except(['index']);
