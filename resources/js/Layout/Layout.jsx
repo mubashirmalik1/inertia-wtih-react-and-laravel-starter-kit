@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
         <header>
             <nav>
                 <Link href="/">Home</Link>
-                <Link href="/create">Create</Link>
+                <Link href="/posts/create">Create</Link>
                 <Link href="/delete">Delete</Link>
             </nav>
         </header>

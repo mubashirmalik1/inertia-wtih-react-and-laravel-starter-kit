@@ -13,7 +13,7 @@ class PostController extends Controller
      */
     public function index()
     {
-        $posts = Post::get();
+        $posts = Post::paginate(5);
         return Inertia::render('Home', [
             'posts' => $posts,
         ]);
@@ -24,7 +24,7 @@ class PostController extends Controller
      */
     public function create()
     {
-        //
+        return inertia('Create');
     }
 
     /**
@@ -32,7 +32,11 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //dd($request->all());
+        $request->validate([
+            'title' => 'required|min:3|max:255',
+            'body' => 'required|min:30|max:255',
+        ]);
     }
 
     /**

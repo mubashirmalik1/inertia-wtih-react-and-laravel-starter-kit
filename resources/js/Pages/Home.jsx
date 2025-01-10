@@ -1,9 +1,12 @@
+import { Link } from "@inertiajs/react";
 import Layout from "../Layout/Layout";
+import Pagination from "./Components/Pagination";
 const Home = ({posts}) => {
     return (
+       <>
         <div>
           {
-            posts.map(  
+            posts.data.map(  
                 post => (
                     <div key={post.id} className="border-b pb-3 mt-4">
                         <h2 className="font-bold mb-2">{post.title}</h2>
@@ -16,6 +19,9 @@ const Home = ({posts}) => {
             )
           }
         </div>
+        <Pagination links={posts.links} />
+       </> 
+       
         
     );
 };

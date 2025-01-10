@@ -25,5 +25,174 @@ class PostSeeder extends Seeder
             'title' => 'My third post',
             'body' => 'This is my third post',
         ]);
+        Post::create([
+            'title' => 'My first post',
+            'body' => 'This is my first post',
+        ]);
+        Post::create([
+            'title' => 'My second post',
+            'body' => 'This is my second post',
+        ]);
+        Post::create([
+            'title' => 'My third post',
+            'body' => 'This is my third post',
+        ]);
+        Post::create([
+            'title' => 'My first post',
+            'body' => 'This is my first post',
+        ]);
+        Post::create([
+            'title' => 'My second post',
+            'body' => 'This is my second post',
+        ]);
+        Post::create([
+            'title' => 'My third post',
+            'body' => 'This is my third post',
+        ]);
+        Post::create([
+            'title' => 'My first post',
+            'body' => 'This is my first post',
+        ]);
+        Post::create([
+            'title' => 'My second post',
+            'body' => 'This is my second post',
+        ]);
+        Post::create([
+            'title' => 'My third post',
+            'body' => 'This is my third post',
+        ]);
+        Post::create([
+            'title' => 'My first post',
+            'body' => 'This is my first post',
+        ]);
+        Post::create([
+            'title' => 'My second post',
+            'body' => 'This is my second post',
+        ]);
+        Post::create([
+            'title' => 'My third post',
+            'body' => 'This is my third post',
+        ]);
+
+        Post::create([
+            'title' => 'My first post',
+            'body' => 'This is my first post',
+        ]);
+        Post::create([
+            'title' => 'My second post',
+            'body' => 'This is my second post',
+        ]);
+        Post::create([
+            'title' => 'My third post',
+            'body' => 'This is my third post',
+        ]);
+        Post::create([
+            'title' => 'My first post',
+            'body' => 'This is my first post',
+        ]);
+        Post::create([
+            'title' => 'My second post',
+            'body' => 'This is my second post',
+        ]);
+        Post::create([
+            'title' => 'My third post',
+            'body' => 'This is my third post',
+        ]);
+        Post::create([
+            'title' => 'My first post',
+            'body' => 'This is my first post',
+        ]);
+        Post::create([
+            'title' => 'My second post',
+            'body' => 'This is my second post',
+        ]);
+        Post::create([
+            'title' => 'My third post',
+            'body' => 'This is my third post',
+        ]);
+        Post::create([
+            'title' => 'My first post',
+            'body' => 'This is my first post',
+        ]);
+        Post::create([
+            'title' => 'My second post',
+            'body' => 'This is my second post',
+        ]);
+        Post::create([
+            'title' => 'My third post',
+            'body' => 'This is my third post',
+        ]);
+        Post::create([
+            'title' => 'My first post',
+            'body' => 'This is my first post',
+        ]);
+        Post::create([
+            'title' => 'My second post',
+            'body' => 'This is my second post',
+        ]);
+        Post::create([
+            'title' => 'My third post',
+            'body' => 'This is my third post',
+        ]);
+        Post::create([
+            'title' => 'My first post',
+            'body' => 'This is my first post',
+        ]);
+        Post::create([
+            'title' => 'My second post',
+            'body' => 'This is my second post',
+        ]);
+        Post::create([
+            'title' => 'My third post',
+            'body' => 'This is my third post',
+        ]);
+        Post::create([
+            'title' => 'My first post',
+            'body' => 'This is my first post',
+        ]);
+        Post::create([
+            'title' => 'My second post',
+            'body' => 'This is my second post',
+        ]);
+        Post::create([
+            'title' => 'My third post',
+            'body' => 'This is my third post',
+        ]);
+        Post::create([
+            'title' => 'My first post',
+            'body' => 'This is my first post',
+        ]);
+        Post::create([
+            'title' => 'My second post',
+            'body' => 'This is my second post',
+        ]);
+        Post::create([
+            'title' => 'My third post',
+            'body' => 'This is my third post',
+        ]);
+        Post::create([
+            'title' => 'My first post',
+            'body' => 'This is my first post',
+        ]);
+        Post::create([
+            'title' => 'My second post',
+            'body' => 'This is my second post',
+        ]);
+        Post::create([
+            'title' => 'My third post',
+            'body' => 'This is my third post',
+        ]);
+        Post::create([
+            'title' => 'My first post',
+            'body' => 'This is my first post',
+        ]);
+        Post::create([
+            'title' => 'My second post',
+            'body' => 'This is my second post',
+        ]);
+        Post::create([
+            'title' => 'My third post',
+            'body' => 'This is my third post',
+        ]);
     }
 }
